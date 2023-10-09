@@ -38,9 +38,9 @@ with tab2:
     st.header('Data Collection and Storage')
     st.write("Data will be collected by using Youtube API and it's stored into MongoDB")
     
-    api_key = 'AIzaSyAWgO1XtSBDEBQZJS2Q8E4qgtDhk17kzYw' # AIzaSyApC8Q9aH0hNyUIiMHwa6SV3-DCJ3EngUQ , AIzaSyAWgO1XtSBDEBQZJS2Q8E4qgtDhk17kzYw
+    api_key = 'dev API key' 
     youtube = build('youtube', 'v3', developerKey = api_key)
-    channel_id = st.text_input('Enter Channel ID', value='UC3Izrk2fUSIEwdcH0kNdzeQ') #value='UCEXud8c4yZmQUuVf33Exyiw'
+    channel_id = st.text_input('Enter Channel ID', value='UCduIoIMfD8tT3KoU0-zBRgQ') 
     st.write('You can pass different channel ID, above is default one')  
 
 #CHANNEL DETAILS
