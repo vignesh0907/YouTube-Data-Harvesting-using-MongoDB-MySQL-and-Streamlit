@@ -1,5 +1,8 @@
 # YouTube-Data-Harvesting-using-MongoDB-MySQl-and-Streamlit
-YouTube Data is collected using YouTube v3 API's and then stored it in MongoDB using Pandas structured those data and pushed it in MySQL then performed some of the queries, Using Python's Streamlit library for UI.
+YouTube Data is collected using YouTube v3 API's and then stored it in MongoDB using Pandas structured those data and pushed it in MySQL then performed some of the queries, Using Python's Streamlit library for UI. These data can be later used for Visualizations.
+
+NOTE:
+After each run the program uploads the same channel data it is not handled I will update it later.
 
 Applications Needed:
 1. Python.
@@ -13,6 +16,3 @@ pandas - 'pip install pandas'
 streamlit - 'pip install streamlit'
 pymongo - 'pip install pymongo'
 sqlalchemy - 'pip install SQLAlchemy'
-
-
-
